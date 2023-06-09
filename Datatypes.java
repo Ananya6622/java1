@@ -1,25 +1,24 @@
-public class Datatypes {
+public class DataTypes {
+    static byte byteValue;
+    static short shortValue;
+    static int intValue;
+    static long longValue;
+    static float floatValue;
+    static double doubleValue;
+    static char charValue;
+    static boolean booleanValue;
+
     public static void main(String[] args) {
-        boolean flag = true;
-        System.out.println("boolean " + flag);
+        System.out.println("Default values of primitive data types:");
 
-        byte bytevalue = 127;
-        System.out.println("the byte value " + bytevalue);
-
-        short shortvalue = 23456;
-        System.out.println("The short value " + shortvalue);
-
-        long longvalue = 98765432l;
-        System.out.println("Long value is" + longvalue);
-
-        float floatvalue = 5.03f;
-        System.out.println("the float value " + floatvalue);
-
-        double doublevalue = 23456.05;
-        System.out.println("The double value " + doublevalue);
-
-        char charvalue ='A';
-        System.out.println("The char value "+ charvalue);
-
+        System.out.println("byte: " + byteValue);
+        System.out.println("short: " + shortValue);
+        System.out.println("int: " + intValue);
+        System.out.println("long: " + longValue);
+        System.out.println("float: " + floatValue);
+        System.out.println("double: " + doubleValue);
+        System.out.println("char: " + charValue);
+        System.out.println("boolean: " + booleanValue);
     }
 }
+
